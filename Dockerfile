@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:17-jdk:latest
 WORKDIR /app
 COPY target/.*jar /app/myapp.jar
 EXPOSE 8000
